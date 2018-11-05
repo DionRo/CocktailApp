@@ -1,0 +1,46 @@
+[
+    {
+        "CategoryId": "1",
+        "CocktailId": "1"
+    },
+    {
+        "CategoryId": "2",
+        "CocktailId": "1"
+    },
+    {
+        "CategoryId": "3",
+        "CocktailId": "1"
+    },
+    {
+        "CategoryId": "3",
+        "CocktailId": "2"
+    },
+    {
+        "CategoryId": "1",
+        "CocktailId": "2"
+    },
+    {
+        "CategoryId": "1",
+        "CocktailId": "3"
+    },
+    {
+        "CategoryId": "1",
+        "CocktailId": "4"
+    },
+    {
+        "CategoryId": "3",
+        "CocktailId": "5"
+    },
+    {
+        "CategoryId": "4",
+        "CocktailId": "6"
+    },
+    {
+        "CategoryId": "5",
+        "CocktailId": "7"
+    },
+    {
+        "CategoryId": "6",
+        "CocktailId": "5"
+    }
+]

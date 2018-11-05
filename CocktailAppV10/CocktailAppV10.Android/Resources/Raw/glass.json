@@ -1,0 +1,54 @@
+[
+    {
+        "Id": "1",
+        "Name": "Martini Glass"
+    },
+    {
+        "Id": "2",
+        "Name": "Margarita Glass"
+    },
+    {
+        "Id": "3",
+        "Name": "Coupe Glass"
+    },
+    {
+        "Id": "4",
+        "Name": "Hurricane Glass"
+    },
+    {
+        "Id": "5",
+        "Name": "Sling Glass"
+    },
+    {
+        "Id": "6",
+        "Name": "Tiki Glass"
+    },
+    {
+        "Id": "7",
+        "Name": "Julep Cups"
+    },
+    {
+        "Id": "8",
+        "Name": "Copper Mugs"
+    },
+    {
+        "Id": "9",
+        "Name": "Cocktail Flute"
+    },
+    {
+        "Id": "10",
+        "Name": "Cocktail Hiball Glass"
+    },
+    {
+        "Id": "11",
+        "Name": "Cocktail Tumblers"
+    },
+    {
+        "Id": "12",
+        "Name": "Gin Cocktail Glass"
+    },
+    {
+        "Id": "13",
+        "Name": "Vintage Cocktail Glass"
+    }
+]

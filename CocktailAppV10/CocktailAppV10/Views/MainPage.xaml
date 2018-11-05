@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CocktailAppV10.Views.MainPage" 
+             Title="Cocktails ">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem  Order="Secondary" Priority="0" Text="Achievements" Clicked="OnAchievementButtonClick"/>
+        <ToolbarItem  Order="Secondary" Priority="1" Text="Settings" Clicked="OnSettingButtonClick"/>
+        <ToolbarItem  Order="Secondary" Priority="2" Text="EULA" Clicked="OnEulaButtonClick"/>
+        <ToolbarItem  Order="Secondary" Priority="3" Text="Logout" Clicked="OnLogoutButtonClicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <!-- <Label x:Name="WelcomeMessage" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>-->
+            <SearchBar x:Name="SearchCocktail" TextChanged="SearchChanged" Placeholder="Search Cocktail" Margin="0, 5, 0, 10"/>
+            <ListView x:Name="ItemsListView"
+                VerticalOptions="FillAndExpand"
+                HasUnevenRows="true"
+                ItemSelected="ItemsListView_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="10">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="150" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="{Binding ImageLocation}" Grid.Column="0" />
+                                    <Label Text="{Binding Name}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
+                                            Style="{DynamicResource ListItemTextStyle}" 
+                                            FontSize="16" Grid.Column="1" />
+                                </Grid>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Image WidthRequest="600" HeightRequest="50" Source="nix18.png" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

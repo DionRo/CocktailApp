@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CocktailAppV10.Views.EulaPage"
+             Title="End User License Agreement">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem  Order="Secondary" Priority="0" Text="Achievements" Clicked="OnAchievementButtonClick"/>
+        <ToolbarItem  Order="Secondary" Priority="1" Text="Cocktails" Clicked="OnCocktailButtonClick"/>
+        <ToolbarItem  Order="Secondary" Priority="2" Text="Settings" Clicked="OnSettingButtonClick"/>
+        <ToolbarItem  Order="Secondary" Priority="3" Text="Logout" Clicked="OnLogoutButtonClicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="U agree with everything! NOTHING TO SHOW HERE!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

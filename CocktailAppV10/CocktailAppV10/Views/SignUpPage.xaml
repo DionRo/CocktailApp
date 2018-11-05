@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
+             x:Class="CocktailAppV10.Views.SignUpPage"
+			 Title="Sign Up">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem  Text="EULA" Clicked="OnEulaClicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="30, 0, 30, 0" VerticalOptions="StartAndExpand">
+                <Image WidthRequest="400" Source="logo.png"/> 
+                <Label Text="Firstname" />
+                <Entry x:Name="fnameEntry" /> 
+                <Label Text="Surname" />
+                <Entry x:Name="snameEntry" />
+                <DatePicker x:Name="birthDay" />
+                <Label Text="Email address" />
+                <Entry x:Name="emailEntry" />
+                <Label Text="Password" />
+                <Entry x:Name="passwordEntry" IsPassword="true" />
+                <controls:CheckBox DefaultText="I AGREE with the ToS" x:Name="ToS" />
+                <Button Text="Sign Up" Clicked="OnSignUpButtonClicked" />
+                <Label x:Name="messageLabel" />
+
+                <Image WidthRequest="600" HeightRequest="50" Source="nix18.png" />
+            </StackLayout>
+        </ScrollView>
+	</ContentPage.Content>
+</ContentPage>

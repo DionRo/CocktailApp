@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:CocktailAppV10.Converters"
+             x:Class="CocktailAppV10.Views.CocktailDetail"
+             Title="{Binding Name}">
+    <ContentPage.Resources>
+        <converters:FormatConverter x:Key="FormatConverter" />
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="30, 0, 30, 0" >
+                <Image Source="{Binding ImageLocation}" Margin="0, 10, 0, 10" />
+                <Label Text="Description" Font="Bold,20" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                <Label Text="{Binding Description}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+
+                <Grid>
+                    <Label Text="Information" Font="Bold,20" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Row="0" Grid.Column="0"/>
+                    <StackLayout Grid.Row="1" Grid.Column="0">
+                        <Label Text="{Binding AlcoholPercentage, Converter={StaticResource FormatConverter}, ConverterParameter='Alcohol %: {0}'}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                        <Label x:Name="GlassN" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+                    </StackLayout>
+
+                    <Label Text="Allergies" Font="Bold,20" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Row="0" Grid.Column="1"/>
+                    <ListView  SeparatorVisibility="None"  RowHeight="20" x:Name="AllergiesListView" Grid.Row="1" Grid.Column="1">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell Height="20">
+                                    <StackLayout>
+                                        <Label Text="{Binding Name}"  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </Grid>
+                <Label Text="Ingredients" Font="Bold,20" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+                <ListView x:Name="IngredientsListView" RowHeight="20">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell Height="20">
+                                <StackLayout>
+                                    <Grid>
+                                        <Label Text="{Binding Name}" Grid.Column="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+                                        <Label Text="{Binding AmountOfIngredient}" Grid.Column="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                                    </Grid>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <Label Text="Procedure" Margin="0, 10, 0, 10" Font="Bold,20"  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+                <Label Text="{Binding WayToMake}"  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  />
+
+                <Image WidthRequest="600" HeightRequest="50" Source="nix18.png" Margin="0 ,0, 5, 0" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

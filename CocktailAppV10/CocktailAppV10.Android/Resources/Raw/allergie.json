@@ -1,0 +1,22 @@
+[
+    {
+        "Id": "1",
+        "Name": "Gluten"
+    },
+    {
+        "Id": "2",
+        "Name": "Pinda's"
+    },
+    {
+        "Id": "3",
+        "Name": "Noten"
+    },
+    {
+        "Id": "4",
+        "Name": "Lactose"
+    },
+    {
+        "Id": "5",
+        "Name": "Eieren"
+    }
+]

@@ -1,0 +1,212 @@
+[
+    {
+        "AlcoholPercentage": "35",
+        "Description": "Do you fancy a delicious cocktail and do you want to make it yourself? Then choose the White lady. It is a cocktail that has gin, lemon juice and protein as its main ingredients. It is a surprising cocktail that will taste good with everyone. It can get used to the taste. But if you drink the cocktail more often, you will not want to change anything more quickly. It is a cocktail for the real connoisseur.",
+        "GlassId": "1",
+        "HasAlcohol": "1",
+        "Id": "1",
+        "ImageLocation": "whitelady.jpg",
+        "Name": "White Lady",
+        "WayToMake": "When you are going to make White lady, it is important that the glass is cold. Put it in the fridge for about fifteen minutes. The glass can then be pushed into the grenadine sugar with the opening. Because the glass is cold, the sugar will stick to the edge of the glass. Then all ingredients can be put in the glass. The protein must be added last. The drink must be shaken vigorously and the protein must be beaten to foam. Then grab a cocktail glass and pour it into it. Do not forget to use the sieve. You can garnish the cocktail with a lemon and add a few straws."
+    },
+    {
+        "AlcoholPercentage": "25",
+        "Description": "Are you looking for a real ladies cocktail? Then you're more than ok with the Woo Woo cocktail. After all, the basis of the cocktail consists of cranberry juice, also called a real woman's drink. You drink it from a long drink glass and the cocktail is very tasty. It is possible to prepare the cocktail yourself. You are doing this for about 10 minutes and it is definitely worth the effort to make the Woo Woo cocktail. It is a nice cocktail for example at a party or a birthday.",
+        "GlassId": "10",
+        "HasAlcohol": "1",
+        "Id": "2",
+        "ImageLocation": "woowoo.jpg",
+        "Name": "Woo Woo",
+        "WayToMake": "It is possible to shake this cocktail, but you can also choose to stir it in a glass. When you choose to stir the cocktail, you must first choose a glass. Choose a long drink glass. Put in as many ice cubes as possible. The peach liqueur can then be poured into it. The vodka and lime juice can also be added. Fill it with cranberry juice. The cocktail is now ready, but do not forget to garnish it. You can do that by means of limo slices. You can poke this at the edge of the glass. Optionally you can put a straw in the cocktail."
+    },
+    {
+        "AlcoholPercentage": "40",
+        "Description": "Looking for a nice cocktail that you can always give? Then stop searching, because you have found it here. The Mimosa cocktail is a delicious cocktail with orange juice and champagne as ingredients. It can be drunk every day and can easily be made by yourself. It is a delicious cocktail that will appeal to everyone. Therefore try to make this cocktail. The taste of the cocktail is very surprising thanks to the tasty ingredients.",
+        "GlassId": "9",
+        "HasAlcohol": "1",
+        "Id": "3",
+        "ImageLocation": "mimosa.jpg",
+        "Name": "Mimosa",
+        "WayToMake": "Preparing a Mimosa is very easy. It is also called the cocktail that is easiest to prepare. You do not need a lot of ingredients to prepare Mimosa. You have enough of a little orange juice and champagne. You must mix the orange juice with the champagne in a carafe. It is important that this is done in a good way. Both ingredients must be mixed well together. Then the mixture can be poured into the glasses. Do not forget to top it off with a straw."
+    },
+    {
+        "AlcoholPercentage": "25",
+        "Description": "A real classic among the cocktails is the so-called Mint Julep. It is also called the forerunner of Mojito. It is made with American whiskey. In addition, some mint is added and there is some sugar in it. It is a delicious cocktail that can be drunk all year round. However, it is a specialist cocktail and often connoisseurs choose this cocktail. It is also possible to prepare the cocktail yourself. You will have prepared the cocktail within a few minutes.",
+        "GlassId": "10",
+        "HasAlcohol": "1",
+        "Id": "4",
+        "ImageLocation": "mintjulep.jpg",
+        "Name": "Mint Julep",
+        "WayToMake": "Mint Julep is preferably made in a tin cup. But you can also use a glass if you do not have a tin cup. First take the mint leaves and muddle them with sugar. The glass can then be filled with ice cubes. Then the whiskey can be added together with the drops of Angostura bitter. Stir gently with a spoon through the glass. The cocktail can be topped with the sprig of mint. If you find the cocktail too strong, you can add some water to the cocktail."
+    },
+    {
+        "AlcoholPercentage": "35",
+        "Description": "One of the simplest cocktails to make is the Kir Royale cocktail. You have prepared this cocktail within two minutes. It is very nice to drink this cocktail. The cocktail consists of champagne and creme de cassis. If you like a glass of champagne, you should try this cocktail. It is a delicious cocktail that has a soft taste. Because the cocktail is prepared quickly, this cocktail is a favorite for many people.",
+        "GlassId": "5",
+        "HasAlcohol": "1",
+        "Id": "5",
+        "ImageLocation": "kirroyale.jpg",
+        "Name": "Kir Royale",
+        "WayToMake": "Kir Royale is prepared very quickly. But it is important that all ingredients are cold before you make the cocktail. After all, this cocktail is best when it is served cold. First pour a little cream of the cassis into a champagne glass. Then you can supplement the glass with champagne. If necessary, add a straw. But it is normal to serve this cocktail without a straw. You can simply drink from the glass."
+    },
+    {
+        "AlcoholPercentage": "30",
+        "Description": "Fancy a real Italian cocktail? Then choose the Bellini cocktail. It is a delicious cocktail that mainly consists of processco with peach. It is possible to make this delicious cocktail yourself. Within five minutes the cocktail will be ready to be drunk. Did you get thirsty on a hot summer day? Then choose to make the Bellini cocktail. It will be ready in no time and you will be able to enjoy it to the full.",
+        "GlassId": "3",
+        "HasAlcohol": "1",
+        "Id": "6",
+        "ImageLocation": "bellini.jpg",
+        "Name": "Bellini",
+        "WayToMake": "First the peaches have to be cut through the middle, remove the kernel from the peaches. Then put the peaches with skin in a blender. Grind them until they have become a fine puree. Then 50 ml prosecco can be added. Let the blender do its work for about 10 seconds. Then grab feather glasses and put the mixture into the glasses. Then fill it up to the edge with prosecco. Do not forget to be the first to put the ice cubes in the glass. You can garnish the whole with a slice of peaches and put two straws in it."
+    },
+    {
+        "AlcoholPercentage": "66",
+        "Description": "Do you fancy a nice orange cocktail? Then choose the Screwdriver. That is a cocktail that you can make yourself. The cocktail will be made within 5 minutes. You only need a little bit of vodka and some orange juice. Of course, ice cubes may not be missing. It is a nice cocktail that uses orange as a base. Many people like orange and that is why this cocktail also appeals to many people.",
+        "GlassId": "10",
+        "HasAlcohol": "1",
+        "Id": "7",
+        "ImageLocation": "screwdriver.jpg",
+        "Name": "Screwdriver",
+        "WayToMake": "It is best to make this cocktail without the help of a blender or shaker. The Vodka must first be poured into a glass, add four ice cubes. Then put the orange juice in the glass. Stir well once. Preferably put it first in another glass and let it pass through a sieve into a long drink glass. Then the remaining ice cubes can be added. Everything has to be stirred up again. When the cocktail is ready, you can garnish it with a slice of orange on the edge of the glass. Do not forget the straws in the glass."
+    },
+    {
+        "AlcoholPercentage": "42",
+        "Description": "The Apple Martini is a nice drink for the whole year. You can already make the cocktail yourself. Within a short time you will have the cocktail on the table. It is a popular cocktail and that is why it is even more fun to prepare it yourself. The basis of the Apple Martini consists of Vodka with apple juice, supplemented with all kinds of other ingredients.",
+        "GlassId": "1",
+        "HasAlcohol": "1",
+        "Id": "8",
+        "ImageLocation": "applemartini.jpg",
+        "Name": "Appel Martini",
+        "WayToMake": "You can prepare the Apple Martini cocktail with a shaker. However, it is also possible to do this wiFthout shaker. When you make the cocktail with the shaker, you put all the ingredients in the shaker and make sure everything is well shaken. If you make the cocktail without a shaker, first put the ice cubes in the glass and then pour in all the ingredients. You can garnish the whole with a piece of apple. Do not forget to put a few straws in to finish the cocktail."
+    },
+    {
+        "AlcoholPercentage": "33",
+        "Description": "Have you ever drunk a Cuba Libre cocktail? It is a delicious cocktail that has been prepared within a few minutes. You can prepare the cocktail yourself. The basis of the cocktail consists of white rum and cola, some lime has been added. It is a delicious cocktail that will quench your thirst. The Cuba Libre cocktail is a cocktail that you must have tried. You will soon be sold to the delicious cocktail.",
+        "GlassId": "10",
+        "HasAlcohol": "1",
+        "Id": "9",
+        "ImageLocation": "cubalibre.jpg",
+        "Name": "Cuba Libre",
+        "WayToMake": "It is important that the cola is nice and cold. Put it in the fridge well in advance. Then put the rum, the ice cubes and the cola in a long drink glass. Make sure that the ice cubes are on the bottom. Then cut the lime into two pieces. Take out one part and press it out above a glass. Then the other part can be done completely. It is important then to stir the whole thing equally well. It is possible to garnish the cocktail in a number of ways."
+    },
+    {
+        "AlcoholPercentage": "40",
+        "Description": "A Pina Colada is a delicious cocktail consisting of white rum, coconut milk and pineapple juice. It is a cocktail that fits perfectly on the beach. But you do not have to go far away to order the cocktail. You can also make the Pina Cola yourself, in your own kitchen. That is of course very nice and nice to do. You can make a Pina Colada in many ways and preparing it takes about 10 minutes. The cocktail is also ready very quickly!",
+        "GlassId": "4",
+        "HasAlcohol": "1",
+        "Id": "10",
+        "ImageLocation": "pinacolada.jpg",
+        "Name": "Pina Colada",
+        "WayToMake": "The Pina Colada is best made with a shaker or a blender. You can then use fresh pineapple for the juice. In the shaker you first have to do ice cream, then add a barmaat of pineapple juice, a barmat of coconut milk and white rum. The liquid cream must also be included. That will ensure that the cocktail will be nice and creamy. It is important to shake everything equally well. Then you can fill the glass, which already contains ice cubes, with the cocktail. When you have divided the mixture you can garnish the cocktail with a pineapple on the edge and possibly a cherry on top."
+    },
+    {
+        "AlcoholPercentage": "20",
+        "Description": "Do you want to make a nice cocktail yourself? Then choose Sex on the beach. That is a very popular cocktail that is often drunk by many people. It is wonderful to drink the cocktail on a hot summer day. The cocktail consists of a number of different fruit juices with vodka and Peach Tree. It is a wonderful combination that will provide an ideal refreshment. The cocktail is also easy to make yourself in the kitchen, so you can also enjoy the cocktail at home. So it is very nice to serve the cocktail on a hot summer day. It will provide a good refreshment and it is a perfect thirst quencher.",
+        "GlassId": "11",
+        "HasAlcohol": "1",
+        "Id": "11",
+        "ImageLocation": "sexonthe.jpg",
+        "Name": "Sex On The Beach",
+        "WayToMake": "Sex on the beach is een cocktail die je eenvoudig kunt maken. Pak een groot en geschikt glas en doe hier een aantal ijsblokjes in. Vervolgens kun je de Wodka erover heen schenken. Doe dit ook met de Peach tree. Daarna kan de cocktail worden aangevuld met jus d’orange en de andere twee fruitsappen. Je kunt het geheel garneren met een schijfje citroen. Uiteraard mogen twee rietjes niet ontbreken. Wanneer de cocktail klaar is, is het genieten geblazen!"
+    },
+    {
+        "AlcoholPercentage": "25",
+        "Description": "Looking for a cocktail that you can make yourself, but that is just as different as the rest? Then choose Cosmopolitan. It is a surprising but delicious cocktail that you can prepare yourself. These cocktails are based on cranberry juice and cointreau with vodka. It is a delicious mix that can be a nice refreshment on a hot summer day. You can also make the cocktail yourself in the kitchen. This allows you to let several people enjoy the cocktail that you have made yourself.",
+        "GlassId": "1",
+        "HasAlcohol": "1",
+        "Id": "12",
+        "ImageLocation": "cosmopolitan.jpg",
+        "Name": "Cosmopolitan",
+        "WayToMake": "Of course you need a traditional cocktail glass to pour everything into it. You can use a shaker to shake all ingredients well. But of course you can also do it without shaker. Then first put the ice cubes in the glass and pour the ice cubes with all the ingredients. Add two straws and the cocktail will be ready to be drunk. A slice of lemon on the edge of the glass can also be very tasty. It is very easy to prepare this cocktail and it only takes you five minutes of your time."
+    },
+    {
+        "AlcoholPercentage": "40",
+        "Description": "Do you like Tequila? Then the Tequila Sunrise cocktail is highly recommended for you. It is a delicious, spicy cocktail and Tequila is a great source. If you like a cocktail, it is a good idea to make it yourself. The result will certainly be there! The cocktail is prepared within minutes and therefore you can enjoy it quickly.",
+        "GlassId": "10",
+        "HasAlcohol": "1",
+        "Id": "13",
+        "ImageLocation": "tequilasunrise.jpg",
+        "Name": "Tequila Sunrise",
+        "WayToMake": "The orange juice must be well-chilled. Put it in the refrigerator so that it gets cold. You can put the ice cubes, the Tequila and the orange juice in the shaker. Of course you can also put the ice cubes in the glass yourself and transfer it if you do not have a shaker. If you choose to do it with a shaker, you can pour the whole into a long drink glass. Then the shoot of grenadine must be put in the middle of the glass. That will drop to the bottom of the glass. That will provide the image of the sunrise. You can not stir anymore. The slice of orange can be placed on the edge of the glass. Serve the cocktail with two straws."
+    },
+    {
+        "AlcoholPercentage": "34",
+        "Description": "It is warm outside and you can use a refreshment. Then choose to make a Mojito. A Mojito is a very famous cocktail that is drunk by many people in warm weather. You can also make a Mojito yourself, it only takes five minutes of your time. A homemade cocktail is very tasty and a Mojito is highly recommended. The cocktail is based on white rum with sparkling water. There is some Lime, cane and mint added to create the perfect taste.",
+        "GlassId": "10",
+        "HasAlcohol": "1",
+        "Id": "14",
+        "ImageLocation": "mojito.jpg",
+        "Name": "Mojito",
+        "WayToMake": "If you are going to make the Mojito cocktail, you must use a long drink glass. It is then convenient to opt for a sturdy glass, since you have to stamp heavily during mixing. First you have to put the sugar in the glass together with the lime segments. Then stamp this with a muddler. Then the white rum can be added. Then stir in the cocktail well and add sparkling water and crushed ice. The cocktail can be topped with a sprig of mint and a slice of lime. Do not forget to finish off the cocktail with a straw and some other decorations."
+    },
+    {
+        "AlcoholPercentage": "40",
+        "Description": "Caipirinha is a cocktail that is less known, but therefore not less tasty. It is a delicious cocktail that provides a real refreshment. It is a cocktail made from lime and cachaca. These ingredients will provide a surprising taste. Would you like to try a cocktail that is less known? Then choose the Caipirinha cocktail. It is a cocktail that will taste great and that is why you will want to drink the cocktail more often. It is possible to make the cocktail all by yourself, within ten minutes it can be ready.",
+        "GlassId": "10",
+        "HasAlcohol": "1",
+        "Id": "15",
+        "ImageLocation": "caipirinha.jpg",
+        "Name": "Caipirinha",
+        "WayToMake": "First the limes have to be cut into segments. These must be crushed together with ice in a glass. Therefore choose a sturdy glass. The glass can then be filled with planed ice. Then you can pour the cachaca over it. Stir well. In terms of quantity, Cachaca is one of the best types of alcohol in the world. It is a Brazilian drink. The drink is made from sugar cane. When the cocktail is ready you should not forget to put straws in it."
+    },
+    {
+        "AlcoholPercentage": "30",
+        "Description": "A real classic among the cocktails is Bloody Mary. It is a tasty cocktail that is characterized by the many ingredients. The cocktail contains ingredients such as fresh lime, tomato juice, tabasco and vodka. It takes about 10 minutes to prepare the cocktail and with a shaker the cocktail is ready. It is a cocktail that can be drunk all year round, but Bloody Mary is the best in the summer.",
+        "GlassId": "4",
+        "HasAlcohol": "1",
+        "Id": "16",
+        "ImageLocation": "bloodymary.jpg",
+        "Name": "Bloody Mary",
+        "WayToMake": "The ice cubes must be put in a cocktail shaker. The black pepper can be ground over it. Subsequently add 3 small glasses of vodka and 6 small glasses of tomato juice. Shake well, then add 3 drops of Worchestershire sauce. Then the juice of the lime can be added together with 2 drops of tabasco. Finish the cocktail with a pinch of celery salt. Then the cocktail can be sieved and pour into a nice glass. To stir, you can use the celery."
+    },
+    {
+        "AlcoholPercentage": "30",
+        "Description": "The ice cubes must be put into a cocktail shaker. The black pepper can be ground over it. Subsequently add 3 small glasses or vodka and 6 small glasses or tomato juice. Shake well, then add 3 drops of Worchestershire sauce. Then the juice of the lime can be added together with two drops of tabasco. Finish the cocktail with a pinch or celery salt. Then the cocktail can be sieved and pour into a nice glass. To stir, you can use the celery.",
+        "GlassId": "4",
+        "HasAlcohol": "1",
+        "Id": "17",
+        "ImageLocation": "maitai.jpg",
+        "Name": "Mai Tai",
+        "WayToMake": "It is still quite difficult to make a nice Mai Tai Cocktail. You must therefore take some time to prepare the cocktail, you are about fifteen minutes busy. First a cocktail shaker has to be filled with ice cubes. Then one and a half glass of white rum and three glasses of brown space can be added. Then add a half glass of Amaretto, also the lemon juice, the sugar syrup and the cointreau can be added. The shaker can be closed and everything can be shredded. Then put the whole in a long drink glass. Pour the cocktail into it. A slice of pineapple can be punctured at the edge and the Mai Tai can be topped with fresh mint. Add a few broken ice cubes to finish it off."
+    },
+    {
+        "AlcoholPercentage": "40",
+        "Description": "The Long Island Iced Tea is a delicious cocktail that is nice and refreshing. You can make the cocktail yourself, you are busy for fifteen minutes. You can make the cocktail with the aid of a shaker. Do not you have a shaker? No problem, you can also build the cocktail yourself and that is just as tasty. The Long Island Iced Tea cocktail is a must for everyone and will certainly be well appreciated!",
+        "GlassId": "10",
+        "HasAlcohol": "1",
+        "Id": "18",
+        "ImageLocation": "longisland.jpg",
+        "Name": "Long Island Iced Tea",
+        "WayToMake": "The cocktail will be poured into a long drink glass. You can use a shaker. If you do not have a shaker you first have to fill the glass with ice cubes. Then add the Vodka, Rum, Tequila and the Gin. Do no more than half a barmat of every spirit. You can also add half a lemon, lemon juice and juice from the cocktail cherries for taste. Then you can fill up the glass with the cola. Carefully pour a straw into the glass. Finally, you can poke a slice of lemon on the edge and add a cocktail cherry. The cocktail is now ready to be served."
+    },
+    {
+        "AlcoholPercentage": "33",
+        "Description": "A Daiquiri is a very tasty cocktail, which you can make yourself. There are many variants of a Daiquiri cocktail that you can make. In this recipe a strawberry Daiquiri cocktail is described. That is a fresh cocktail with a sweet taste. But it is also possible to replace the strawberry and use another ingredient. After all, you can make many different types of Daiquiri cocktails. Making a Daiquiri cocktail does not take much time, you are busy with it for about 10 minutes.",
+        "GlassId": "3",
+        "HasAlcohol": "1",
+        "Id": "19",
+        "ImageLocation": "daiquiri.jpg",
+        "Name": "Daiquiri",
+        "WayToMake": "First, the rum, lemon juice and ice cubes must be put in a blender. Make sure that everything is shaken up well for about 20 seconds. Then divide the whole over a number of glasses. Of course, a decoration on the cocktail should not be missed. So choose a few straws in the glass and poke a strawberry on the edge of the glass. The cocktail will now be ready to be drunk."
+    },
+    {
+        "AlcoholPercentage": "0",
+        "Description": "Arizona Sunset is a fun and fruity, non-alcoholic drink, perfect for warmer weather – it’s reminiscent of Arizona’s awesomely beautiful sunsets! Since there is no alcohol, it’s great for adults and kids!",
+        "GlassId": "11",
+        "HasAlcohol": "0",
+        "Id": "20",
+        "ImageLocation": "arizonasunset.jpg",
+        "Name": "Arizona Sunset",
+        "WayToMake": "Place ice in 2 glasses. Add a splash of Grenadine to each glass. In a small pitcher or other container, stir the Sprite and orange juice together. Slowly pour over the Grenadine, dividing the mixture between the two glasses. Garnish with cherries or orange slices, if desired."
+    },
+    {
+        "AlcoholPercentage": "0",
+        "Description": "Mexican Limenade is the mexican way of servering lemonade. Its Source and very Healthy due all the lemons! Dont try it when you do not like sour, or do!",
+        "GlassId": "11",
+        "HasAlcohol": "0",
+        "Id": "21",
+        "ImageLocation": "mexicanlimeade.jpg",
+        "Name": "Mexican Limenade",
+        "WayToMake": "This is not a perfect science, so don't be afraid to experiment a little. Wash your limes. Cut the limes in half. Place the halved limes or lemons in the blender with 4 cups of water. Blend until the limes or lemon is completely pulverized. Strain the limeade (I usually end up using my hands a little) and add the Sprite and Lemonde powder. Add water to taste. If more sweetness is desired, add agave to taste. Serve with ice. "
+    }
+]

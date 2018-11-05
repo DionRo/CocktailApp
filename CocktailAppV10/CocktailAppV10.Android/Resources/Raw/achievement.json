@@ -1,0 +1,27 @@
+[
+    {
+        "Id": "1",
+        "Name": "Cocktail Beginner (Open 10 cocktails)",
+        "Requirement": "10\n"
+    },
+    {
+        "Id": "2",
+        "Name": "Cocktail Amateur (Open 20 cocktails)",
+        "Requirement": "20"
+    },
+    {
+        "Id": "3",
+        "Name": "Cocktail Semi Prof (Open 50 cocktails)",
+        "Requirement": "50"
+    },
+    {
+        "Id": "4",
+        "Name": "Cocktail Proff (Open 100 cocktails)",
+        "Requirement": "100"
+    },
+    {
+        "Id": "5",
+        "Name": "Cocktail LEGEND (Open 200 cocktails)",
+        "Requirement": "200"
+    }
+]

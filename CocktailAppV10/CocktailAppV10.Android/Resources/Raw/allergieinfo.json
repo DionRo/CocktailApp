@@ -1,0 +1,34 @@
+[
+    {
+        "AllergieId": "3",
+        "CocktailId": "1"
+    },
+    {
+        "AllergieId": "2",
+        "CocktailId": "1"
+    },
+    {
+        "AllergieId": "1",
+        "CocktailId": "1"
+    },
+    {
+        "AllergieId": "4",
+        "CocktailId": "2"
+    },
+    {
+        "AllergieId": "2",
+        "CocktailId": "2"
+    },
+    {
+        "AllergieId": "2",
+        "CocktailId": "3"
+    },
+    {
+        "AllergieId": "2",
+        "CocktailId": "4"
+    },
+    {
+        "AllergieId": "2",
+        "CocktailId": "5"
+    }
+]

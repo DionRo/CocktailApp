@@ -1,0 +1,26 @@
+[
+    {
+        "Id": "1",
+        "Name": "Low Alcohol"
+    },
+    {
+        "Id": "2",
+        "Name": "Mid Alcohol"
+    },
+    {
+        "Id": "3",
+        "Name": "High Alcohol"
+    },
+    {
+        "Id": "4",
+        "Name": "Fruity"
+    },
+    {
+        "Id": "5",
+        "Name": "Boozy"
+    },
+    {
+        "Id": "6",
+        "Name": "GetDrunkFast"
+    }
+]

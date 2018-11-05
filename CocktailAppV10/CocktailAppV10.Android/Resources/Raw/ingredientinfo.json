@@ -1,0 +1,502 @@
+[
+    {
+        "AmountOfIngredient": "2CL",
+        "CocktailId": "1",
+        "IngredientId": "1"
+    },
+    {
+        "AmountOfIngredient": "1CL",
+        "CocktailId": "1",
+        "IngredientId": "21"
+    },
+    {
+        "AmountOfIngredient": "1CL",
+        "CocktailId": "1",
+        "IngredientId": "9"
+    },
+    {
+        "AmountOfIngredient": "1/2",
+        "CocktailId": "1",
+        "IngredientId": "20"
+    },
+    {
+        "AmountOfIngredient": "Glass Fill",
+        "CocktailId": "1",
+        "IngredientId": "6"
+    },
+    {
+        "AmountOfIngredient": "-",
+        "CocktailId": "1",
+        "IngredientId": "22"
+    },
+    {
+        "AmountOfIngredient": "30ML",
+        "CocktailId": "2",
+        "IngredientId": "8"
+    },
+    {
+        "AmountOfIngredient": "30ML",
+        "CocktailId": "2",
+        "IngredientId": "23"
+    },
+    {
+        "AmountOfIngredient": "90ML",
+        "CocktailId": "2",
+        "IngredientId": "10"
+    },
+    {
+        "AmountOfIngredient": "10ML",
+        "CocktailId": "2",
+        "IngredientId": "9"
+    },
+    {
+        "AmountOfIngredient": "300ML",
+        "CocktailId": "3",
+        "IngredientId": "24"
+    },
+    {
+        "AmountOfIngredient": "1 Bottle",
+        "CocktailId": "3",
+        "IngredientId": "12"
+    },
+    {
+        "AmountOfIngredient": "60ML",
+        "CocktailId": "4",
+        "IngredientId": "2"
+    },
+    {
+        "AmountOfIngredient": "1 Eating Spoon",
+        "CocktailId": "4",
+        "IngredientId": "25"
+    },
+    {
+        "AmountOfIngredient": "3 Drops",
+        "CocktailId": "4",
+        "IngredientId": "26"
+    },
+    {
+        "AmountOfIngredient": "Few leafs",
+        "CocktailId": "4",
+        "IngredientId": "11"
+    },
+    {
+        "AmountOfIngredient": "Glass Fill",
+        "CocktailId": "4",
+        "IngredientId": "6"
+    },
+    {
+        "AmountOfIngredient": "A Little Bit",
+        "CocktailId": "5",
+        "IngredientId": "27"
+    },
+    {
+        "AmountOfIngredient": "3/4 Off The Glass",
+        "CocktailId": "5",
+        "IngredientId": "12"
+    },
+    {
+        "AmountOfIngredient": "3",
+        "CocktailId": "6",
+        "IngredientId": "29"
+    },
+    {
+        "AmountOfIngredient": "1 Slice",
+        "CocktailId": "6",
+        "IngredientId": "29"
+    },
+    {
+        "AmountOfIngredient": "1/2 Bottle",
+        "CocktailId": "6",
+        "IngredientId": "18"
+    },
+    {
+        "AmountOfIngredient": "4 Blocks",
+        "CocktailId": "6",
+        "IngredientId": "6"
+    },
+    {
+        "AmountOfIngredient": "5CL",
+        "CocktailId": "7",
+        "IngredientId": "8"
+    },
+    {
+        "AmountOfIngredient": "10CL",
+        "CocktailId": "7",
+        "IngredientId": "24"
+    },
+    {
+        "AmountOfIngredient": "Few Pieces",
+        "CocktailId": "7",
+        "IngredientId": "30"
+    },
+    {
+        "AmountOfIngredient": "7 Blocks",
+        "CocktailId": "7",
+        "IngredientId": "6"
+    },
+    {
+        "AmountOfIngredient": "20ML",
+        "CocktailId": "8",
+        "IngredientId": "31"
+    },
+    {
+        "AmountOfIngredient": "Few Pieces",
+        "CocktailId": "8",
+        "IngredientId": "16"
+    },
+    {
+        "AmountOfIngredient": "50ML",
+        "CocktailId": "8",
+        "IngredientId": "8"
+    },
+    {
+        "AmountOfIngredient": "30ML",
+        "CocktailId": "8",
+        "IngredientId": "17"
+    },
+    {
+        "AmountOfIngredient": "10ML",
+        "CocktailId": "8",
+        "IngredientId": "32"
+    },
+    {
+        "AmountOfIngredient": "50ML",
+        "CocktailId": "9",
+        "IngredientId": "13"
+    },
+    {
+        "AmountOfIngredient": "100ML",
+        "CocktailId": "9",
+        "IngredientId": "19"
+    },
+    {
+        "AmountOfIngredient": "1/2 ",
+        "CocktailId": "9",
+        "IngredientId": "33"
+    },
+    {
+        "AmountOfIngredient": "3 Blocks",
+        "CocktailId": "9",
+        "IngredientId": "6"
+    },
+    {
+        "AmountOfIngredient": "30ML",
+        "CocktailId": "10",
+        "IngredientId": "13"
+    },
+    {
+        "AmountOfIngredient": "1 Eating Spoon",
+        "CocktailId": "10",
+        "IngredientId": "34"
+    },
+    {
+        "AmountOfIngredient": "30ML",
+        "CocktailId": "10",
+        "IngredientId": "15"
+    },
+    {
+        "AmountOfIngredient": "30ML",
+        "CocktailId": "10",
+        "IngredientId": "14"
+    },
+    {
+        "AmountOfIngredient": "30ML",
+        "CocktailId": "11",
+        "IngredientId": "35"
+    },
+    {
+        "AmountOfIngredient": "30ML",
+        "CocktailId": "11",
+        "IngredientId": "8"
+    },
+    {
+        "AmountOfIngredient": "30ML",
+        "CocktailId": "11",
+        "IngredientId": "36"
+    },
+    {
+        "AmountOfIngredient": "10ML",
+        "CocktailId": "11",
+        "IngredientId": "10"
+    },
+    {
+        "AmountOfIngredient": "20ML",
+        "CocktailId": "11",
+        "IngredientId": "24"
+    },
+    {
+        "AmountOfIngredient": "Fill Glass",
+        "CocktailId": "11",
+        "IngredientId": "6"
+    },
+    {
+        "AmountOfIngredient": "25ML",
+        "CocktailId": "12",
+        "IngredientId": "8"
+    },
+    {
+        "AmountOfIngredient": "15ML",
+        "CocktailId": "12",
+        "IngredientId": "21"
+    },
+    {
+        "AmountOfIngredient": "5ML",
+        "CocktailId": "12",
+        "IngredientId": "37"
+    },
+    {
+        "AmountOfIngredient": "30ML",
+        "CocktailId": "12",
+        "IngredientId": "10"
+    },
+    {
+        "AmountOfIngredient": "Fill Glass",
+        "CocktailId": "12",
+        "IngredientId": "6"
+    },
+    {
+        "AmountOfIngredient": "50ML",
+        "CocktailId": "13",
+        "IngredientId": "18"
+    },
+    {
+        "AmountOfIngredient": "15ML",
+        "CocktailId": "13",
+        "IngredientId": "7"
+    },
+    {
+        "AmountOfIngredient": "125ML",
+        "CocktailId": "13",
+        "IngredientId": "24"
+    },
+    {
+        "AmountOfIngredient": "4 Blocks",
+        "CocktailId": "13",
+        "IngredientId": "6"
+    },
+    {
+        "AmountOfIngredient": "1 Slice",
+        "CocktailId": "13",
+        "IngredientId": "30"
+    },
+    {
+        "AmountOfIngredient": "30ML",
+        "CocktailId": "14",
+        "IngredientId": "38"
+    },
+    {
+        "AmountOfIngredient": "1",
+        "CocktailId": "14",
+        "IngredientId": "33"
+    },
+    {
+        "AmountOfIngredient": "60ML",
+        "CocktailId": "14",
+        "IngredientId": "13"
+    },
+    {
+        "AmountOfIngredient": "2 Eating Spoons",
+        "CocktailId": "14",
+        "IngredientId": "25"
+    },
+    {
+        "AmountOfIngredient": "Few leafs",
+        "CocktailId": "14",
+        "IngredientId": "11"
+    },
+    {
+        "AmountOfIngredient": "Many Slices",
+        "CocktailId": "15",
+        "IngredientId": "33"
+    },
+    {
+        "AmountOfIngredient": "50ML",
+        "CocktailId": "15",
+        "IngredientId": "40"
+    },
+    {
+        "AmountOfIngredient": "Fill Glass",
+        "CocktailId": "15",
+        "IngredientId": "39"
+    },
+    {
+        "AmountOfIngredient": "2 Eating Spoons",
+        "CocktailId": "15",
+        "IngredientId": "25"
+    },
+    {
+        "AmountOfIngredient": "3 Blocks",
+        "CocktailId": "16",
+        "IngredientId": "6"
+    },
+    {
+        "AmountOfIngredient": "2 Drops",
+        "CocktailId": "16",
+        "IngredientId": "41"
+    },
+    {
+        "AmountOfIngredient": "1L ",
+        "CocktailId": "16",
+        "IngredientId": "42"
+    },
+    {
+        "AmountOfIngredient": "Own Taste",
+        "CocktailId": "16",
+        "IngredientId": "43"
+    },
+    {
+        "AmountOfIngredient": "Own Taste",
+        "CocktailId": "16",
+        "IngredientId": "44"
+    },
+    {
+        "AmountOfIngredient": "300ML",
+        "CocktailId": "16",
+        "IngredientId": "8"
+    },
+    {
+        "AmountOfIngredient": "3 Drops",
+        "CocktailId": "16",
+        "IngredientId": "45"
+    },
+    {
+        "AmountOfIngredient": "Fill Glass",
+        "CocktailId": "17",
+        "IngredientId": "6"
+    },
+    {
+        "AmountOfIngredient": "100ML",
+        "CocktailId": "17",
+        "IngredientId": "13"
+    },
+    {
+        "AmountOfIngredient": "300ML",
+        "CocktailId": "17",
+        "IngredientId": "46"
+    },
+    {
+        "AmountOfIngredient": "Own Taste",
+        "CocktailId": "17",
+        "IngredientId": "25"
+    },
+    {
+        "AmountOfIngredient": "25ML",
+        "CocktailId": "17",
+        "IngredientId": "9"
+    },
+    {
+        "AmountOfIngredient": "25ML",
+        "CocktailId": "17",
+        "IngredientId": "21"
+    },
+    {
+        "AmountOfIngredient": "1 Slice",
+        "CocktailId": "17",
+        "IngredientId": "47"
+    },
+    {
+        "AmountOfIngredient": "50ML",
+        "CocktailId": "17",
+        "IngredientId": "48"
+    },
+    {
+        "AmountOfIngredient": "15ML",
+        "CocktailId": "18",
+        "IngredientId": "1"
+    },
+    {
+        "AmountOfIngredient": "15ML",
+        "CocktailId": "18",
+        "IngredientId": "13"
+    },
+    {
+        "AmountOfIngredient": "60ML",
+        "CocktailId": "18",
+        "IngredientId": "19"
+    },
+    {
+        "AmountOfIngredient": "15ML",
+        "CocktailId": "18",
+        "IngredientId": "18"
+    },
+    {
+        "AmountOfIngredient": "15ML",
+        "CocktailId": "18",
+        "IngredientId": "8"
+    },
+    {
+        "AmountOfIngredient": "15ML",
+        "CocktailId": "18",
+        "IngredientId": "49"
+    },
+    {
+        "AmountOfIngredient": "1 Eating Spoon",
+        "CocktailId": "18",
+        "IngredientId": "9"
+    },
+    {
+        "AmountOfIngredient": "15ML",
+        "CocktailId": "19",
+        "IngredientId": "9"
+    },
+    {
+        "AmountOfIngredient": "100ML",
+        "CocktailId": "19",
+        "IngredientId": "13"
+    },
+    {
+        "AmountOfIngredient": "Fill Glass",
+        "CocktailId": "19",
+        "IngredientId": "6"
+    },
+    {
+        "AmountOfIngredient": "150GR",
+        "CocktailId": "19",
+        "IngredientId": "50"
+    },
+    {
+        "AmountOfIngredient": "250ML",
+        "CocktailId": "20",
+        "IngredientId": "51"
+    },
+    {
+        "AmountOfIngredient": "100ML",
+        "CocktailId": "20",
+        "IngredientId": "7"
+    },
+    {
+        "AmountOfIngredient": "250ML",
+        "CocktailId": "20",
+        "IngredientId": "24"
+    },
+    {
+        "AmountOfIngredient": "1 Cherry",
+        "CocktailId": "20",
+        "IngredientId": "51"
+    },
+    {
+        "AmountOfIngredient": "6",
+        "CocktailId": "21",
+        "IngredientId": "33"
+    },
+    {
+        "AmountOfIngredient": "500ML",
+        "CocktailId": "21",
+        "IngredientId": "51"
+    },
+    {
+        "AmountOfIngredient": "250ML",
+        "CocktailId": "21",
+        "IngredientId": "52"
+    },
+    {
+        "AmountOfIngredient": "2 Eating Spoons",
+        "CocktailId": "21",
+        "IngredientId": "53"
+    },
+    {
+        "AmountOfIngredient": "Glass Fill",
+        "CocktailId": "21",
+        "IngredientId": "6"
+    }
+]

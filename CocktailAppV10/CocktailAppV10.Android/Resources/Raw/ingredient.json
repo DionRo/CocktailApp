@@ -1,0 +1,218 @@
+[
+    {
+        "Id": "1",
+        "Name": "Gin"
+    },
+    {
+        "Id": "2",
+        "Name": "Whiskey"
+    },
+    {
+        "Id": "3",
+        "Name": "Bacardi"
+    },
+    {
+        "Id": "4",
+        "Name": "Bacardi Razz"
+    },
+    {
+        "Id": "5",
+        "Name": "Bacardi Lemon"
+    },
+    {
+        "Id": "6",
+        "Name": "Ice Cubes"
+    },
+    {
+        "Id": "7",
+        "Name": "Gernadine"
+    },
+    {
+        "Id": "8",
+        "Name": "Wodka"
+    },
+    {
+        "Id": "9",
+        "Name": "Lemon Juice"
+    },
+    {
+        "Id": "10",
+        "Name": "Cranberry Juice"
+    },
+    {
+        "Id": "11",
+        "Name": "Mint"
+    },
+    {
+        "Id": "12",
+        "Name": "Champagne"
+    },
+    {
+        "Id": "13",
+        "Name": "White Rum"
+    },
+    {
+        "Id": "14",
+        "Name": "Coconut Milk"
+    },
+    {
+        "Id": "15",
+        "Name": "Pineapple Juice"
+    },
+    {
+        "Id": "16",
+        "Name": "Apple"
+    },
+    {
+        "Id": "17",
+        "Name": "Apple Juice"
+    },
+    {
+        "Id": "18",
+        "Name": "Tequila"
+    },
+    {
+        "Id": "19",
+        "Name": "Coca Cola"
+    },
+    {
+        "Id": "20",
+        "Name": "White Egg Part"
+    },
+    {
+        "Id": "21",
+        "Name": "Cointreau"
+    },
+    {
+        "Id": "22",
+        "Name": "Grenadine Sugar"
+    },
+    {
+        "Id": "23",
+        "Name": "Peach Liquor"
+    },
+    {
+        "Id": "24",
+        "Name": "Orange Juice"
+    },
+    {
+        "Id": "25",
+        "Name": "Sugar"
+    },
+    {
+        "Id": "26",
+        "Name": "Angostura Bitters"
+    },
+    {
+        "Id": "27",
+        "Name": "Crème de Cassis"
+    },
+    {
+        "Id": "28",
+        "Name": "Prosecco"
+    },
+    {
+        "Id": "29",
+        "Name": "Peaches\n"
+    },
+    {
+        "Id": "30",
+        "Name": "Orange"
+    },
+    {
+        "Id": "31",
+        "Name": "The Kuyper Sour Apple"
+    },
+    {
+        "Id": "32",
+        "Name": "Sugar Syrup"
+    },
+    {
+        "Id": "33",
+        "Name": "Limes"
+    },
+    {
+        "Id": "34",
+        "Name": "Cream"
+    },
+    {
+        "Id": "35",
+        "Name": "Grapefruit Juice"
+    },
+    {
+        "Id": "36",
+        "Name": "Peach Tree"
+    },
+    {
+        "Id": "37",
+        "Name": "Lime Juice"
+    },
+    {
+        "Id": "38",
+        "Name": "Sparkling Water"
+    },
+    {
+        "Id": "39",
+        "Name": "Planed Ice"
+    },
+    {
+        "Id": "40",
+        "Name": "Cachaca"
+    },
+    {
+        "Id": "41",
+        "Name": "Tabasco"
+    },
+    {
+        "Id": "42",
+        "Name": "Tomato Juice"
+    },
+    {
+        "Id": "43",
+        "Name": "Celery Salt"
+    },
+    {
+        "Id": "44",
+        "Name": "Black Pepper"
+    },
+    {
+        "Id": "45",
+        "Name": "Worchestershire Sauce"
+    },
+    {
+        "Id": "46",
+        "Name": "Brown Rum"
+    },
+    {
+        "Id": "47",
+        "Name": "Pineapple"
+    },
+    {
+        "Id": "48",
+        "Name": "Amaretto\n"
+    },
+    {
+        "Id": "49",
+        "Name": "Triple Sec"
+    },
+    {
+        "Id": "50",
+        "Name": "Strawberries"
+    },
+    {
+        "Id": "51",
+        "Name": "Sprite"
+    },
+    {
+        "Id": "52",
+        "Name": "Maraschino cherries"
+    },
+    {
+        "Id": "53",
+        "Name": "Water"
+    },
+    {
+        "Id": "54",
+        "Name": "Lemonade Mix"
+    }
+]
