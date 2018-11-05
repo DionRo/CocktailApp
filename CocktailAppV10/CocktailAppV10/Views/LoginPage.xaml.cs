@@ -1,5 +1,9 @@
 ﻿using CocktailAppV10.Models;
+using CocktailAppV10.Resources;
+using Plugin.Multilingual;
 using System;
+using System.Collections.ObjectModel;
+using System.Globalization;
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
@@ -7,20 +11,52 @@ using Xamarin.Forms;
 
 namespace CocktailAppV10.Views
 {
-	public partial class LoginPage : ContentPage
-	{
-		public LoginPage ()
-		{
-			InitializeComponent ();
-		}
+    public partial class LoginPage : ContentPage
+    {
+        public ObservableCollection<Language> Languages { get; }
+        public LoginPage()
+        { 
+            InitializeComponent();
 
-		async void OnSignUpButtonClicked (object sender, EventArgs e)
-		{
-			await Navigation.PushAsync (new SignUpPage ());
-		}
+            Languages = new ObservableCollection<Language>()
+            {
+                new Language { DisplayName =  "Dutch", ShortName = "nl" },
+                new Language { DisplayName =  "English", ShortName = "en" },
+            };
 
-		async void OnLoginButtonClicked (object sender, EventArgs e)
-		{
+            BindingContext = this;
+
+            PickerLanguages.SelectedIndexChanged += PickerLanguages_SelectedIndexChanged;
+        }
+
+        private void PickerLanguages_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var language = Languages[PickerLanguages.SelectedIndex];
+
+            try
+            {
+                var culture = new CultureInfo(language.ShortName);
+                AppResources.Culture = culture;
+                CrossMultilingual.Current.CurrentCultureInfo = culture;
+            }
+            catch (Exception)
+            {
+            }
+            
+            labelUser.Text = AppResources.Email;
+            labelPassword.Text = AppResources.Password;
+            usernameEntry.Placeholder = AppResources.Email;
+            passwordEntry.Placeholder = AppResources.Password;
+            
+        }
+
+        async void OnSignUpButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SignUpPage());
+        }
+
+        async void OnLoginButtonClicked(object sender, EventArgs e)
+        {
             var user = await App.Database.GetUserAsync(usernameEntry.Text.ToLower());
             if (user != null)
             {
@@ -40,13 +76,14 @@ namespace CocktailAppV10.Views
                     passwordEntry.Text = string.Empty;
                 }
             }
-            else {
+            else
+            {
                 messageLabel.Text = "User does not exist";
                 usernameEntry.Text = string.Empty;
                 passwordEntry.Text = string.Empty;
             }
 
-		}
+        }
 
         static readonly string PasswordHash = "P@@Sw0rd";
         static readonly string SaltKey = "S@LT&KEY";
@@ -67,5 +104,5 @@ namespace CocktailAppV10.Views
             cryptoStream.Close();
             return Encoding.UTF8.GetString(plainTextBytes, 0, decryptedByteCount).TrimEnd("\0".ToCharArray());
         }
-	}
+    }
 }

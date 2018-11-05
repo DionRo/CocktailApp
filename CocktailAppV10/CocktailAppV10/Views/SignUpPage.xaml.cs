@@ -5,17 +5,56 @@ using System.Security.Cryptography;
 using System.Text;
 using Xamarin.Forms;
 using CocktailAppV10.Models;
+using System.Collections.ObjectModel;
+using System.Globalization;
+using CocktailAppV10.Resources;
+using Plugin.Multilingual;
 
 namespace CocktailAppV10.Views
 {
     public partial class SignUpPage : ContentPage
 	{
-		public SignUpPage ()
+        public ObservableCollection<Language> Languages { get; }
+        public SignUpPage ()
 		{
 			InitializeComponent ();
-		}
 
-		async void OnSignUpButtonClicked (object sender, EventArgs e)
+            Languages = new ObservableCollection<Language>()
+            {
+                new Language { DisplayName =  "Dutch", ShortName = "nl" },
+                new Language { DisplayName =  "English", ShortName = "en" },
+            };
+
+            BindingContext = this;
+
+            PickerLanguages.SelectedIndexChanged += PickerLanguages_SelectedIndexChanged;
+        }
+
+        private void PickerLanguages_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var language = Languages[PickerLanguages.SelectedIndex];
+
+            try
+            {
+                var culture = new CultureInfo(language.ShortName);
+                AppResources.Culture = culture;
+                CrossMultilingual.Current.CurrentCultureInfo = culture;
+            }
+            catch (Exception)
+            {
+            }
+            
+            labelFirst.Text = AppResources.Firsname;
+            labelSur.Text = AppResources.Surname;
+            labelPassword.Text = AppResources.Password;
+            labelEmail.Text = AppResources.Email;
+            labelBirthday.Text = AppResources.Birthday;
+            ToS.IsVisible = false;
+            ToSNL.IsVisible = true;
+            buttonSignUp.Text = AppResources.SignUp;
+        }
+
+        async void OnSignUpButtonClicked (object sender, EventArgs e)
 		{
             var user = new User{
                 FirstName = fnameEntry.Text,

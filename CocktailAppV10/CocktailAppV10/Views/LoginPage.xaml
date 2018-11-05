@@ -1,15 +1,22 @@
 ﻿
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CocktailAppV10.Views.LoginPage" Title="Login">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="CocktailAppV10.Views.LoginPage" 
+             xmlns:i18n="clr-namespace:CocktailAppV10.Helpers"
+             Title="Login">
 	<ContentPage.ToolbarItems>
 		<ToolbarItem Text="Sign Up" Clicked="OnSignUpButtonClicked" />
 	</ContentPage.ToolbarItems>
     <ContentPage.Content>
-      <StackLayout Padding="30, 0, 30, 0" VerticalOptions="StartAndExpand">
-        <Image WidthRequest="400" Source="logo.png"/>
-        <Label Text="Email" />
-			  <Entry x:Name="usernameEntry" Placeholder="Email" />
-			  <Label Text="Password" />
-			  <Entry x:Name="passwordEntry" IsPassword="true" Placeholder="Password"/>    
+        <StackLayout Padding="30, 0, 30, 0" VerticalOptions="StartAndExpand">
+            <Picker ItemsSource="{Binding Languages}"
+                ItemDisplayBinding="{Binding DisplayName}"    
+                x:Name="PickerLanguages"/>
+            <Image WidthRequest="400" Source="logo.png"/>
+            <Label x:Name="labelUser" Text="{i18n:Translate Email}" />
+             <Entry x:Name="usernameEntry" Placeholder="{i18n:Translate Email}" />
+            <Label x:Name="labelPassword" Text="{i18n:Translate Password}" />
+            <Entry x:Name="passwordEntry" IsPassword="true" Placeholder="{i18n:Translate Password}"/>    
 			  <Button Text="Login"  Clicked="OnLoginButtonClicked" />      
 			  <Label x:Name="messageLabel" />
              <Image WidthRequest="600" HeightRequest="50" Source="nix18.png" />

@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
 			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
+             xmlns:i18n="clr-namespace:CocktailAppV10.Helpers"
              x:Class="CocktailAppV10.Views.SignUpPage"
 			 Title="Sign Up">
     <ContentPage.ToolbarItems>
@@ -10,18 +11,23 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="30, 0, 30, 0" VerticalOptions="StartAndExpand">
+                <Picker ItemsSource="{Binding Languages}"
+                ItemDisplayBinding="{Binding DisplayName}"    
+                x:Name="PickerLanguages"/>
                 <Image WidthRequest="400" Source="logo.png"/> 
-                <Label Text="Firstname" />
+                <Label x:Name="labelFirst" Text="Firstname" />
                 <Entry x:Name="fnameEntry" /> 
-                <Label Text="Surname" />
+                <Label x:Name="labelSur" Text="Surname" />
                 <Entry x:Name="snameEntry" />
+                <Label x:Name="labelBirthday" Text="Birthday"/>
                 <DatePicker x:Name="birthDay" />
-                <Label Text="Email address" />
+                <Label x:Name="labelEmail" Text="Email address" />
                 <Entry x:Name="emailEntry" />
-                <Label Text="Password" />
+                <Label x:Name="labelPassword" Text="Password" />
                 <Entry x:Name="passwordEntry" IsPassword="true" />
                 <controls:CheckBox DefaultText="I AGREE with the ToS" x:Name="ToS" />
-                <Button Text="Sign Up" Clicked="OnSignUpButtonClicked" />
+                <controls:CheckBox DefaultText="Ik ga akkoord met de ToS" x:Name="ToSNL" IsVisible="False" />
+                <Button x:Name="buttonSignUp" Text="Sign Up" Clicked="OnSignUpButtonClicked" />
                 <Label x:Name="messageLabel" />
 
                 <Image WidthRequest="600" HeightRequest="50" Source="nix18.png" />
